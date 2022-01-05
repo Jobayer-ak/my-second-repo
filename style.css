@@ -1,4 +1,39 @@
 h2{
     color: olive;
 }
- 
+img{
+    height: 300px;
+    width: 400px;
+}
+.flexible-container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: grey
+}
+.shadow{
+    display: flex;
+}
+.shadow-box{
+    box-shadow: 10px 20px 40px gray;
+    margin-left: 30px;
+    padding: 20px 30px ;
+}
+.shadow-box h2{
+    text-align: center;
+    font-size: 30px;
+}
+.section-item-1{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.section-item-2{
+    border-left: 5px solid;
+    border-image: linear-gradient(orange, cyan);
+    border-image-slice: 1;
+    margin-right: 20px;
+}
